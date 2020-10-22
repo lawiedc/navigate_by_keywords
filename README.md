@@ -3,10 +3,15 @@ Extract most important words from each page of a website and use these as an alt
 
 Using the ideas from https://peekaboo-vision.blogspot.com/2012/11/a-wordcloud-in-python.html as a starting point for keyword collection
 
+## Pre-reqs
+
+```
 pip install sklearn fitz pymupdf
+```
 
-Sample output:
+## Sample output
 
+```
 For overall commonality, list the words which were in the top set for more than one doc, and the docs
 
 word: number of docs: total appearances where key: list of docs where this is a key word
@@ -43,3 +48,4 @@ democratising-decisions-tech-report.pdf
 rsa-making-home.pdf
  2
 the-rsa-schools-without-walls.pdf
+```
